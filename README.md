@@ -16,12 +16,14 @@ The plugin only draws the button and fires a gesture trigger. Kiosk Satellite's 
 | --- | --- | --- |
 | Show the button | Screensaver only | **Always** keeps it over the dashboard too |
 | Hide while the assistant is busy | on | Hidden while Voice Satellite listens, thinks or answers |
-| Corner | Bottom right | Or bottom left, top right, top left, bottom centre |
-| Button size | 72 dp | 40 to 160 |
+| Corner | Bottom right | Or bottom left, bottom centre, top right, top left, top centre |
+| Style | Icon only | **Icon and label** makes a pill with your text beside the icon |
+| Label | Ask | Shown with Icon and label |
+| Button height | 72 dp | 40 to 160 |
 | Distance from the edge | 20 dp | |
 | Icon | mdi:microphone | Any Material Design Icon |
 | Icon colour / Button colour | white / black | |
-| Button opacity | 45 % | 0 shows the icon alone |
+| Button opacity | 45 % | 0 shows the icon (and label) alone |
 | Thin outline | on | |
 
 The plugin also offers a **Press the mic button** action, so the same thing can be put in the kiosk drawer or exposed to Home Assistant from the plugin's page.
